@@ -2,7 +2,7 @@
 some basic functions in python
 """
 
-// is_even function
+# is_even function
 """
 If x is even, then return True. Otherwise, return False.
 """
@@ -13,8 +13,7 @@ def is_even(x):
   else:
     return False
 
-
-// is_int function
+# is_int function
 """
 Have it return True if the number is an integer (as defined above) and False otherwise.
 """
@@ -26,7 +25,7 @@ def is_int(x):
     return False
     
     
-// digit_sum function
+# digit_sum function
 """
 Write a function called digit_sum that takes a positive integer n as input and returns the sum of all that number's digits.
 """
@@ -39,7 +38,7 @@ def digit_sum(x):
     return total
     
  
-// factorial function
+# factorial function
 """
 Return the factorial of number x
 """
@@ -50,8 +49,8 @@ def factorial(x):
     result = result * i
   return result
   
-  
-// is_prime function
+
+# is_prime function
 """
 Check a number is a prime or not
 """
@@ -66,7 +65,7 @@ def is_prime(x):
         return True
         
         
-// reverse function
+# reverse function
 """
 Define a function called reverse that takes a string textand returns that string in reverse. 
 """
@@ -78,7 +77,7 @@ def reverse(text):
   return reverse
   
   
-// anti_vowel function
+# anti_vowel function
 """
 Define a function called anti_vowel that takes one string, text, as input and returns the text with all of the vowels removed.
 """
@@ -90,7 +89,7 @@ def anti_vowel(text):
   return text
   
   
-// scrabble_score function
+# scrabble_score function
 """
 Define a function scrabble_score that takes a string word as input and returns the equivalent scrabble score for that word.
 """
@@ -109,7 +108,7 @@ def scrabble_score(word):
   return result
   
   
-// censor function
+# censor function
 """
 It should return the text with the word you chose replaced with asterisks. 
 """
@@ -128,7 +127,7 @@ def censor(text, word):
     return result
     
     
-// count function
+# count function
 """
 Return the number of times the item occurs in the list.
 """
@@ -141,7 +140,7 @@ def count(sequence, item):
   return count
 
 
-// purify function
+# purify function
 """
 Define a function called purify that takes in a list of numbers, removes all odd numbers in the list, and returns the result.
 """
@@ -153,7 +152,7 @@ def purify(numbers):
   return numbers
   
   
-// product function
+# product function
 """
 Define a function called product that takes a list of integers as input and returns the product of all of the elements in the list.
 """
@@ -165,7 +164,7 @@ def product(numbers):
   return product
 
 
-// remove_duplicates function
+# remove_duplicates function
 """
 Write a function remove_duplicates that takes in a list and removes elements of the list that are the same.
 """
@@ -178,7 +177,7 @@ def remove_duplicates(origin):
   return result
   
   
-// median function
+# median function
 """
 Write a function called median that takes a list as an input and returns the median value of the list. 
 """
@@ -189,3 +188,7 @@ def median(numbers):
     return numbers[len(numbers) / 2]
   else:
     return (numbers[len(numbers) / 2] + numbers[len(numbers) / 2 - 1]) / 2.0
+  
+  
+  
+  
